@@ -1,0 +1,139 @@
+.picture {
+    height: 150px;
+}
+.menu {
+    min-height: 930px;
+    color: black;
+}
+.profile {
+    height: 70%;
+}
+.identity-admin {
+    font-family: 'RalewayMedium';
+}
+.search, .home, .add-post, .preview, .delete, .update, .sign-out, .button-back, .submit-button, .publish, .cancel-publish, .home-page {
+    position: relative;
+}
+.search:hover, .home:hover, .add-post:hover, .preview:hover, .delete:hover, .update:hover, .button-back:hover, .submit-button:hover, .publish:hover, .cancel-publish:hover, .home-page:hover {
+    background: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+.search button[type=submit], .delete button[type=submit], .update button[type=submit], .sign-out button[type=submit], .submit-button button[type=submit], .publish button[type=submit], .cancel-publish button[type=submit] {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.home a, .add-post a, .preview a, .button-back a, .home-page a {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.detail-id:hover, .sign-out:hover {
+    background-color: transparent;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+    color: black;
+}
+.detail-id {
+    color: black;
+}
+.alert {
+    font-family: 'RalewayMedium';
+}
+.search img, .home img, .add-post img, .preview img, .delete img, .update img, .sign-out img, .button-back img, .submit-button img, .publish img, .cancel-publish img, .home-page img {
+    pointer-events: none;
+}
+.content {
+    min-height: 1080px;
+}
+.nav-link {
+    height: 60px;
+}
+.nav-link {
+    font-family: 'RalewayMedium';
+    color: black;
+    text-align: center;
+}
+.content-description {
+    font-family: 'RalewayMedium';
+}
+.content-description img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.content-description h1 {
+    text-align: center;
+}
+.content-description p {
+    line-height: 1.5;
+}
+
+@font-face {
+    font-family: 'RalewayLight';
+    src: url("/fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: 'RalewayMedium';
+    src: url("/fonts/Raleway-Medium.ttf");
+}
+.ck {
+    height: 100%;
+    font-family: 'RalewayMedium';
+}
+.post label {
+    font-family: 'RalewayMedium';
+}
+.post a {
+    font-family: 'RalewayMedium';
+}
+.post input[type=text] {
+    font-family: 'RalewayMedium';
+}
+.post button {
+    font-family: 'RalewayMedium';
+}
+.post .invalid-feedback {
+    font-family: 'RalewayMedium';
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+.main table {
+    font-family: 'RalewayMedium';
+}
+.main .input-group {
+    font-family: 'RalewayMedium';
+}
+.menu-link {
+    font-family: 'RalewayMedium';
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,140 @@
+.navbar {
+    min-height: 120px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.container {
+    width: 50%;
+    min-height: 500px;
+}
+.navbar a {
+    color: black;
+}
+.username .logo {
+    font-family: 'OpenSans-Bold';
+    font-weight: bold;
+    font-size: 25px;
+}
+.followers a, .about a, .follow a, .message a, .menu-link a {
+    font-family: 'Raleway-Medium';
+}
+.message {
+    position: relative;
+}
+.message:hover {
+    background: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.follow:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.message img {
+    pointer-events: none;
+}
+.message a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.follow {
+    background-color: #1A8917;
+    border-radius: 30px;
+}
+.started:hover {
+    background: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.navbar-toggler {
+    margin: auto;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.alert {
+    font-family: 'Raleway-Medium';
+    font-size: 15px;
+}
+.detail-content .title h1 {
+    font-family: 'OpenSans-Bold';
+}
+.profile-writer .picture-username {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.username-text {
+    color: rgb(26,137,23);
+}
+.detail-content p {
+    font-family: 'Raleway-Medium';
+}
+.story-content img {
+    max-width: 100%;
+    height: auto;
+}
+.story-content {
+    font-family: 'Raleway-Medium';
+}
+.detail-date {
+    color: rgb(117,117,117);
+}
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('/fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('/fonts/Raleway-Medium.ttf');
+}
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+    .sign-in {
+        margin: auto;
+    }
+    .container {
+        width: 85%;
+        min-height: 500px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        width: 70%;
+        min-height: 500px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: 65%;
+        min-height: 500px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        width: 60%;
+        min-height: 500px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .collapse {
+        display: grid;
+        justify-content: flex-end;
+    }
+}
+

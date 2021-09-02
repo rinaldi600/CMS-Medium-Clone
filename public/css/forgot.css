@@ -1,0 +1,55 @@
+.form {
+    width: 50%;
+}
+.cover-image {
+    background-image: url("/img/adrian-swancar-JXXdS4gbCTI-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+label, button[type=submit], a {
+    font-family: 'Raleway-Medium';
+}
+.alert {
+    font-family: 'Raleway-Medium';
+}
+input[type=text], input[type=password] {
+    font-family: 'Raleway-Light';
+}
+.invalid-feedback {
+    font-family: 'Raleway-Medium';
+}
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('/fonts/Raleway-Medium.ttf');
+}
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('/fonts/Raleway-Light.ttf');
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

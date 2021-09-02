@@ -1,0 +1,156 @@
+/*body {*/
+/*    overflow-x: hidden;*/
+/*}*/
+.header {
+    height: 450px;
+    background-color: #C4E2FF;
+    border-bottom: 1px solid black;
+}
+.nav-menu {
+    border-bottom: 1px solid black;
+    background-color: #C4E2FF;
+}
+.title-trending h3 {
+    font-family: "Raleway-Medium";
+    font-weight: bold;
+}
+.navbar-brand {
+    font-family: "KaiseiHarunoUmi-Bold";
+}
+.navbar-nav a {
+    font-family: "Raleway-Medium";
+}
+.text h1 {
+    font-family: "KaiseiHarunoUmi-Bold";
+    font-size: 40px;
+}
+.profile-picture img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.button {
+    width: 120px;
+}
+.text p {
+    font-family: "Raleway-Medium";
+}
+.title-news h2 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Raleway-Medium";
+    cursor: pointer;
+}
+.text {
+    width: 56%;
+    margin: 40px auto;
+}
+.navbar {
+    width: 80%;
+    margin: auto;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar .container-fluid {
+    color: black;
+}
+.title p {
+    font-family: "Raleway-Medium";
+    font-weight: bold;
+}
+.content-news {
+    min-height: 200px;
+    /*background-color: #0C7FCC;*/
+}
+.news .row h3 {
+    font-family: "Raleway-Medium";
+    font-size: 35px;
+    font-weight: bold;
+}
+.news p {
+    font-family: "Raleway-Medium";
+}
+.news .date-news p {
+    color: #757575;
+}
+.title {
+    margin-left: 10%;
+}
+.news {
+    width: 350px;
+    height: 120px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url('/fonts/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: "KaiseiHarunoUmi-Bold";
+    src: url('/fonts/KaiseiHarunoUmi-Bold.ttf');
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar {
+        width: 95%;
+        margin: auto;
+    }
+    .text {
+        width: 95%;
+        margin-top: 25px;
+    }
+    .header {
+        height: 450px;
+    }
+    .text h1 {
+        font-size: 25px;
+    }
+    .title {
+        margin-left: 0;
+    }
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header {
+        height: 550px;
+    }
+    .text h1 {
+        font-size: 35px;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header {
+        height: 500px;
+    }
+    .text h1 {
+        font-size: 35px;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .coba {
+        display: grid;
+        justify-content: flex-end;
+    }
+}
